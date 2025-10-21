@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    height: 2300px;
+    background-color: rgba(255, 255, 255, 1);
+    
+    
+    
+   
+
+}
+#header{
+    height: 76px;
+    display: flex;
+    margin-top:10px ;
+    align-items: center;
+    
+}
+#logo{
+    height: 76px;
+    width: 201px;
+    
+   
+    margin-left: 100px;
+    display: flex;
+}
+#logoimg{
+    height: 76px;
+    width: 76px;
+    background-image: url("logo.png");
+    background-size: cover;
+    
+    padding-right: 10px;
+    
+}
+#logo p{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 15px 0 10px 0;
+
+    color: rgba(20, 159, 57, 1);
+
+}
+#logo p span{
+    font-size: 48px;
+}
+#bar{
+    width: 52px;
+    height: 52px;
+    margin-left:800px;
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#bar i{
+    font-size: 30px;
+
+}
+.heropart{
+    height: 600px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#heroimg{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    width: 512px;
+    height: 514px;
+    border-radius: 256px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+#heroimg:hover{
+    width:520px ;
+    height:524px ;
+    box-shadow: 0 0 2px 2px rgb(0, 0, 0,0.5);
+}
+#thought{
+    width: 562px;
+    height: 377px;
+  
+    padding-left: 30px;
+    margin-left: 50px;
+    
+}
+#discount{
+    width: 205px;
+    height: 35px;
+    color: white;
+  
+    background-color: rgba(20, 159, 57, 1);
+    padding-left: 35px;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+     box-shadow: 3px 3px 3px rgb(0, 0, 0,0.5)
+    
+}
+#line1{
+    width: 562px;
+    height: 168px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 72px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#line2{
+    width: 363px;
+    height: 35px;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#thought button{
+    color: white;
+    background-color: #ffcf10;
+    width: 174px;
+    height: 57px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 35px;
+}
+#thought button:hover{
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0,0.5);
+    border-radius: 10px;
+    font-size:25px ;
+    
+}
+#offer1{
+    height:150px ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#offer2{
+    width: 878px;
+    height: 109px;
+   
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    
+    align-items: center;
+}
+.off{
+   
+    width: 269px;
+    height: 83px;
+    display: flex;
+    
+}
+.off:hover{
+    box-shadow: 3px 3px 3px rgb(0, 0, 0,0.5);
+    border-radius: 10px;
+}
+#off1 div{
+    background-image: url("voucher.png");
+    background-size: cover;
+    width: 80px;
+    height:83px ;
+}
+.off p{
+    width: 178px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+.off p span{
+    font-weight: 600;
+    font-size: 18px;
+
+} 
+#off2 div{
+    background-image: url("vegies.png");
+    background-size: cover;
+     width: 80px;
+    height:83px ;
+    
+}
+#off3 div{
+    background-image: url("house.png");
+     background-size: cover;
+     width: 80px;
+    height:83px ;
+    
+}
+#imgbox{
+    height: 1054px;
+   
+    
+    
+    margin-top: 80px;
+
+}
+#menu{
+    height:43px ;
+    width: 137px;
+    background-color: rgba(20, 159, 57, 1);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    justify-self: center;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0,0.5)
+
+}
+#exploremenu{
+    
+    width: 287px;
+    height: 55px;
+    font-size: 36px;
+    font-weight: 400;
+    justify-self: center;
+    margin-top: 30px;
+    padding-left: 12px;
+}
+.grid{
+    height: 830px;
+    
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.grid div{
+    
+    background-size: cover;
+}
+.grid div:hover{
+    box-shadow: 0 0 2px 2px rgb(0, 0, 0,0.5);
+}
+
+#div1{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    background-image: url("div1.jpg");
+   
+}
+#div2{
+    grid-row: 1 / span 2;
+    background-image: url("div2.jpg");
+
+}
+#div3{
+    background-image: url("div3.jpg");
+
+}
+#div4{
+    background-image: url("div4.jpg");
+
+}
+#div5{
+    background-image: url("div5.jpg");
+
+}
+#div6{
+    background-image: url("div6.jpg");
+
+}
+#div7{
+    grid-row: 2 / span 2;
+    background-image: url("div7.jpg");
+}
+
+footer{
+    background-color: rgba(255, 240, 219, 1);
+    height: 200px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+#footdiv{
+    width: 986px;
+    height: 148px;
+    
+    justify-self: center;
+    display: flex;
+    
+}
+.foot{
+    
+    width: 265px;
+
+   
+}
+.foot span{
+    font-size: 18px;
+    font-weight: 600;
+   
+}
+#foot1{
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+    width: 200px;
+}
+#foot2,#foot3{
+    width: 230px;
+   
+}
+#foot2 p,#foot3 p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-left: 50px;
+    
+
+}
+#foot2 span,#foot3 span,#foot4 span{
+    padding-left: 50px;
+}
+
+#foot4 input{
+    margin-left: 50px ;
+    width: 80%;
+}
+
+#foot4 div{
+    margin-left: 50px;
+}
+
+

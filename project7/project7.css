@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 809px;
+    
+}
+.sidenav{
+    width: 68px;
+    height: 100%;
+  
+    display: flex;
+    
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+
+    background-color: white;
+    
+    position: fixed;
+    top: 0;
+   
+   
+    
+}
+
+.sidenav div{
+   
+    width: 60px;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+    
+
+}
+.sidenav div i{
+    font-size: 25px;
+    
+   
+}
+
+.sidenav div i:hover{
+    font-size: 28px;
+}
+.fix{
+    width:94.5% ;
+    height: 105px;
+   
+    margin-left: 68px;
+    position: fixed;
+    top: 0;
+    
+    
+    
+}
+.nav1{
+    height: 55px;
+    
+    width: 100%;
+   
+    
+    display: flex;
+    border-bottom: 1px solid black;
+   
+    background-color: white;
+    
+    
+}
+.logo{
+    width: 25%;
+   
+    height: 100%;
+    
+    
+    
+}
+.logo img{
+    margin-left: 5px;
+    
+}
+.search{
+    width: 55%;
+    height: 100%;
+   
+    display: flex;
+    
+    align-items: center;
+}
+
+.search input{
+    width: 490px;
+    height: 38px;
+   
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    padding-left: 20px;
+    font-size: 17px;
+    
+    border: 1px solid black;
+}
+.search button{
+    
+    background-color: white;
+    
+    border: 1px solid black;
+    border-left: none;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 39px;
+    width: 70px;
+    background-color: rgb(168, 167, 167);
+    
+}
+.search button:active{
+    box-shadow: 0 0 2px 2px rgb(0,0,0 ,0.5);
+}
+.search button i{
+    font-size: 23px;
+   
+    
+}
+#mic{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+        background-color: rgb(168, 167, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 20px;
+    border: none;
+}
+#mic:hover{
+    box-shadow: 0 0 3px 3px rgb(0,0,0 ,0.5);
+}
+#mic:active{
+    box-shadow:none;
+}
+.others{
+    width: 20%;
+    
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   padding-left: 100px;
+ 
+    
+}
+
+.create,#profile{
+    height: 45px;
+    width: 45px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.create:hover, #profile:hover{
+     box-shadow: 0 0 3px 3px rgb(0,0,0 ,0.5);
+     border-radius: 50%;
+     
+}
+.create:active,#profile:active{
+    box-shadow: none;
+}
+.create i{
+    font-size: 30px;
+}
+#profile{
+    background-image: url("dp2.jpg");
+    background-size: cover;
+    border-radius: 50%;
+
+}
+.nav2{
+    height: 50px;
+   
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    background-color: white;
+   
+   
+       
+}
+.filter{
+    width: 53px;
+    height: 32px;
+    border: 1px solid black;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+     background-color: rgb(168, 167, 167);
+     font-size: 14px;
+}
+.filter:hover{
+    box-shadow: 0 0 2px 2px rgb(0,0,0 ,0.5);
+}
+
+
+#gridcontain{
+     width: 94.5%;
+    height: auto;
+    margin-left: 68px;
+    margin-top: 115px;
+   
+    
+    
+
+}
+.grid{
+    width: 94.5%;
+    height: auto;
+
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px 20px;
+    margin-top: 10px;
+    
+   
+}
+.div{
+   
+    height: 250px;
+    border-radius: 10px;
+    width: 355px;
+    box-shadow: 2px 2px 2px rgb(0,0,0 ,0.5);
+    
+   
+}
+.div:hover{
+   
+    box-shadow: 0 0 3px 3px rgb(0,0,0 ,0.5);
+}
+.div:active{
+    box-shadow: 2px 2px 30px rgb(0,0,0 ,0.5);
+   
+}
+.about{
+    height: 50px;
+    width: 100%;
+    
+    display: flex;
+}
+.about p{
+    font-size: 14px;
+    font-weight: 600;
+   
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.photo{
+    height: 80%;
+    /* border: 1px solid black; */
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+#photo1{
+    background-image:url("div1.jpg") ;
+   
+}
+#photo2{
+    background-image: url("div2.jpg")
+}
+    
+#photo3{
+    background-image: url("div3.jpg");
+}
+#photo4{
+    background-image: url("div4.jpg");
+}
+#photo5{
+    background-image: url("div5.jpg");
+}
+#photo6{
+    background-image: url("div6.jpg");
+}
+#photo7{
+    background-image: url("div7.jpg");
+}
+#photo8{
+    background-image: url("div8.jpg");
+}
+#photo9{
+    background-image: url("div9.jpg");
+}
+.chicon{
+    height: 50px;
+    width: 20%;
+   
+    background-size: cover;
+}
+#icon1{
+    background-image: url("mrindian.png");
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: 0 7px;
+    
+}
+#icon2{
+    background-image: url(tseries-circle-vztvwmb8davobphn.png);
+    background-repeat: no-repeat;
+    background-position: -25px;
+
+}
+#icon9{
+    background-image: url("shark-tank-india-logo-1.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 10px 2px;
+}

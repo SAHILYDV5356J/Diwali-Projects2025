@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    text-align: center;
+
+}
+
+p{
+    margin: 20px 120px 20px 120px;
+}
+.text{
+    width: 500px;
+    height: 70px;
+    background-color: rgb(37, 34, 34,0.8);
+    font-size: 40px ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family:'Times New Roman', Times, serif;
+    
+
+
+}
+
+#title1{
+    background-image: url("vladislav-zakharevich-PchDPdgaD40-unsplash.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.about{
+    font-size: 40px;
+    color: #423f3f;
+}
+.aboutdetails{
+    font-size: 20px;
+    color: hsl(0, 3%, 32%);
+    padding-bottom: 50px;
+    
+
+}
+#title2{
+    background-image: url("f2cfcd9ba36217807f24339e89dd387fbcb44306.jpg");
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#section2,#section3{
+   background-color: hsl(0, 1%, 22%);
+}
+#absec1,#absec2{
+    font-size: 40px;
+    color: #ffffff;
+
+}
+#abdesec1,#abdesec2{
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 40px;
+
+
+}
+#title3{
+    background-image: url("image3.jpg");
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+   
+
+
+}
+#title3 div{
+    width: 700px;
+    height: 70px;
+}
+
+.title4{
+    background-image: url("c2d23a83f78c783ddb91c8558d93de414476dd85.jpg");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+   
+
+}
+
+
+

@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#intro{
+    height: 700px;
+    background-image: url("f8c4525db71b0744d36e2ae7dd639763e7992154.jpg");
+    background-size: cover;
+    margin-top: -50px;
+    padding-top: 50px;
+  
+
+
+}
+#firstline{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 72px;
+    margin-top: 53px;
+    margin-left: 313px;
+   
+    color: white;
+
+}
+#firstline span{
+    font-size: 25px;
+    letter-spacing: 1px;
+
+}
+#secondline{
+    font-size: 50px;
+    color: white;
+    margin-left: 313px;
+}
+#thoughts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(22, 22, 25, 1);
+    height: 250px;
+    color: white;
+    font-weight: 400;
+    font-size: 72px;
+}
+#thoughts p span{
+    font-size: 144px;
+}
+
+#showcase{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1066px;
+    height: 450px;
+    column-gap: 53px;
+   
+    
+    
+}
+
+#a,#b,#c{
+    height: 192px;
+    width: 320px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#a{
+    background-image: url("image1.jpg");
+    background-size: cover;
+}
+
+#b{
+    background-image: url("image2.jpg");
+    background-size: cover;
+}
+#c{
+    background-image: url("image3.jpg");
+    background-size: cover;
+    
+}
+#d,#e,#f{
+    height: 258px;
+    width: 320px;
+     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 3px 3px rgb(0, 0, 0,0.5);
+
+}
+#d:hover,#e:hover,#f:hover{
+    box-shadow: 0 0 4px 4px rgb(0, 0, 0,0.5);
+}
+
+
+#d p{
+    padding-left: 19px;
+    padding-top: 19px;
+    padding-right: 5px;
+
+}
+#e p, #f p{
+    padding-left: 19px;
+    padding-top: 20px;
+    padding-right: 5px;
+    
+}
+#e p span,#f p span,#d p span{
+    font-size: 20px;
+   
+}
+#self{
+    height: 378px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+#contact{
+    background-color: rgba(81, 86, 3, 1);
+    padding-left: 129px;
+    padding-top: 40px;
+    padding-right: 40px;
+
+
+
+}
+#contact span, #about span{
+    font-size: 64px;
+    color: white;
+    font-weight: 400;
+
+}
+#about{
+    background-color: rgba(114, 35, 0, 1);
+    padding-left: 129px;
+    padding-top: 40px;
+    padding-right: 40px;
+
+}
+#contact a , #contact p,#about p{
+    text-decoration: none;
+    color: white;
+}
+#last{
+    height: 138px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
