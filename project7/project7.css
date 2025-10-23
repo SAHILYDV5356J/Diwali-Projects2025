@@ -66,7 +66,7 @@
    
     
     display: flex;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid grey;
    
     background-color: black;
     
@@ -104,19 +104,19 @@
     padding-left: 20px;
     font-size: 17px;
     
-    border: 1px solid white;
+    border: 1px solid grey;
 }
 .search button{
     
     background-color: black;
     
-    border: 1px solid white;
+    border: 1px solid grey;
     border-left: none;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     height: 39px;
     width: 70px;
-    background-color: rgb(168, 167, 167);
+     background-color: rgb(69, 68, 68);
     
 }
 .search button:active{
@@ -124,7 +124,7 @@
 }
 .search button i{
     font-size: 23px;
-     background-color: rgb(168, 167, 167);
+     background-color: rgb(69, 68, 68);
    
     
 }
@@ -132,7 +132,7 @@
     height: 40px;
     width: 40px;
     border-radius: 50%;
-        background-color: rgb(168, 167, 167);
+        background-color: rgb(69, 68, 68);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,13 +199,13 @@
 .filter{
     width: 53px;
     height: 32px;
-    border: 1px solid white;
+    border: 1px solid grey;
     margin-left: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 25px;
-     background-color: rgb(168, 167, 167);
+    background-color: rgb(69, 68, 68);
      font-size: 14px;
 }
 .filter:hover{
@@ -240,7 +240,7 @@
     height: 250px;
     border-radius: 10px;
     width: 355px;
-    box-shadow: 2px 2px 2px rgb(255,255,255 ,0.5);
+   
     
    
 }
@@ -328,5 +328,6 @@
     background-size: 40px;
     background-position: 10px 2px;
 }
+
 
 
