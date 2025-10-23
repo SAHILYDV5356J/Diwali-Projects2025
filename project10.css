@@ -59,16 +59,18 @@
 
 }
 .heroimg img{
-    border-radius: 640px;
+
+    border-radius: 50%;
     
-     box-shadow: 3px 3px 3px rgb(255, 255, 255,0.5) ;
+    
+     box-shadow: 0 0 3px 3px rgb(255, 255, 255,0.5) ;
+     background-image: linear-gradient(to bottom,#085388,#13133a);
 }
 .heroimg img:hover{
     height: 600px;
-    box-shadow: 5px 5px 5px rgb(255, 255, 255,0.5) ;
+    box-shadow: 0 0 5px 5px rgb(255, 255, 255,0.5) ;
    
 }
-
 .about{
     width: 50%;
     height: 100%;
@@ -232,4 +234,5 @@
     justify-content: center;
     align-items: center;
    
+
 }
